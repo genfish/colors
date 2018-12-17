@@ -39,7 +39,7 @@ $(document).ready(function() {
 			$(".result").html(data.html);
 		})
 		.fail(function(data) {
-			$(".result").html('<p>' + data.file[0] + '</p>');
+			$(".result").html("<p>Format d'imatge incorrecte.</p>");
 		});
 
 		return false;
