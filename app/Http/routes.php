@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('child');
 });
+
+Route::post('upload', 'UploadController@upload');
