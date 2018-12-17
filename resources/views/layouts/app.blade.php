@@ -9,5 +9,7 @@
 		<div class="container">
 			@yield('content')
 		</div>
+
+		<script src="{!!url('/assets/js/main.js')!!}"></script>
 	</body>
 </html>

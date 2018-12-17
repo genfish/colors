@@ -24,15 +24,13 @@ h2 {
 	font-weight: bold;
 }
 
-.container {
-	text-align: center;
-	display: table-cell;
-	vertical-align: middle;
+h3 {
+	font-weight: bold;
+}
 
-	.content {
-		text-align: center;
-		display: inline-block;
-	}
+p {
+	font-family: Tahoma;
+	text-align: left;
 }
 
 [type="file"] {
@@ -41,4 +39,26 @@ h2 {
 	height: 32px;
 	margin: 0 auto;
 	width: 210px;
+}
+
+.block {
+	display: block;
+	height: 100px;
+	margin: 1em auto;
+	width: 100px;
+}
+
+.container {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+
+	.content {
+		text-align: center;
+		display: inline-block;
+
+		.title {
+			text-align: center;
+		}
+	}
 }
